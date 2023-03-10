@@ -1,3 +1,5 @@
+using TRPBin.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<TestLuaService>();
 
 var app = builder.Build();
 
@@ -22,4 +26,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+// app.Run();
+
+var scope = app.Services.CreateAsyncScope();
+var service = scope.ServiceProvider.GetRequiredService<TestLuaService>();
+
+service.TestMoonSharp();
