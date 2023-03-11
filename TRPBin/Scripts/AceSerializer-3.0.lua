@@ -170,7 +170,7 @@ end
 -- Callers are expected to pcall(DeserializeValue) to trap errors
 
 local function DeserializeValue(iter,single,ctl,data)
-
+	print("deserialize")
 	if not single then
 		ctl,data = iter()
 	end

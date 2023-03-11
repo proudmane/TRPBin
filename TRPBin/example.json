@@ -1,0 +1,151 @@
+[
+  112,
+  "0206211155aC7cA",
+  {
+    "profileName": "Moon Guard - Anaraa",
+    "notes": {
+      "0206211155aC7cA": "asdf aesdfvvwerverv"
+    },
+    "player": {
+      "about": {
+        "v": 41,
+        "TE": 1,
+        "T1": {
+          "TX": "{p:c}{link*https://www.youtube.com/watch?v=plnAMYt2oqY*Hand Holding}{/p}\n\n(OOC Forewarning, Anara is a sexual character. I ERP and she makes references to it regularly. If you don't like it or you want to be shitty, do us both a favor and fuck off away from me, thanks~! -- This also isn't gonna be an F-List, if you want to know her walk up!)\n\n(Anara is also a little much as a character. Please understand that flirting and trying to initiate intimacy are core tennets of her character. It does not necessarily mean I am looking for it OOC. If you'd like her to be toned down, please just ask!)\n\n{h2:c}{icon:spell_shadow_soothingkiss:25}{col:ff00f1} Your Desire{/col}{/h2}\n\nAnara stood at a below average height for her race at a staggering 5'1\". Almost as if she'd been malnourished as a child but recovered too late for her body to recover fully. \n\nDespite, she was an impressively carved figure. Her small waist, small hips and flawless bust filled out her small frame, making seem much more endowed than others of her kind that leer over the heads of the humans.\n\nHer skin flawless and a heavy tone to it, as if she'd spend hours a day tanning somehow. Her full lips usually dressed with a dark red lipstick (or are those wine stains?). Her voice sultry in the best of times. Every word uttered lined with vocal velvet.\n\n{h2:c}{icon:priest_spell_leapoffaith_a:25}{col:07aeff} Guardian Angel{/col}{/h2}\n\nAbove all Anara wishes for peace upon Azeroth. She is quite young for an elf, only about thirty years old. So she is hopeful and full of optimism both about the world and the people around her. She shies away from violence and turmoil, seeing them as wholly unnecessary evils. Even her enemies would find her unnervingly merciful.\n\n{h2:c}{icon:ability_racial_timeismoney:25}{col:3e2ff7} Time is Money {/col}{/h2}\n\nWhile above the barbarity of violence she was, however, not above the barbarity of greed. Greed burns within her, keeping her warm on cold and lonely nights. No matter her endeavor, one will find money and wealth at the core of her efforts. \n\nAdorning herself in the finest of cloth and the most luxurious of gems and jewelry, she was usually the most decorated woman in the room, the most flaunting of excess. Her enjoyment from the attention that brings was quite obvious.\n\n{h2:c}{icon:ability_hunter_catlikereflexes:25} {col:ffec00}Cat Got Your Tongue{/col}{/h2}\n\nA pretty face is met with quick wit. Anara studied and trained from an early age to provide entertainment and quality conversation to even the most wealthy of clients. Because of this, her skills are quite diverse. She has been known to sing in Thalassian, Darnassian and Common. Instruments include the harp, mandolin, most stringed instruments. \n\nShe is also a world-class chess player, a world-class chef and bartender, easily at home in the finest of restaurants Azeroth has to offer.\n\n\n"
+        },
+        "T3": {
+          "PH": {
+            "BK": 1
+          },
+          "HI": {
+            "BK": 1
+          },
+          "PS": {
+            "BK": 1
+          }
+        },
+        "T2": [],
+        "BK": 6
+      },
+      "misc": {
+        "v": 22,
+        "ST": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        },
+        "PE": {
+          "1": {
+            "TX": "This elf was obviously touched by the void, though apparently less than her peers. Her hair gave slightly void-like glows and her eyes were slightly void-touched.\n\nThe rest of her body and face however remained normal",
+            "TI": "Void-Touched",
+            "IC": "spell_shadow_summonvoidwalker",
+            "AC": true
+          },
+          "2": {
+            "TX": "Anara was in a word, flawless. Her skin was without blemish and held a fair amount of color when compared to others of her race.\n\nHer frame was slender like a porcelain pot. Her hips were wide and her waist small.",
+            "TI": "Body Type and Appearance",
+            "IC": "spell_shadow_manafeed",
+            "AC": true
+          },
+          "3": {
+            "TX": "It would be fair to say that nearly every quality about the woman lent itself to a sensual and even sexual demeanor in everything from her body to her eyes and voice.",
+            "TI": "Sultry and Sensual",
+            "AC": true,
+            "IC": "spell_shadow_summonsuccubus"
+          },
+          "4": {
+            "TX": "When she walks, she has an almost imperceptible limp on her right side.\n\nWhen standing still she tends to favor her left leg.",
+            "TI": "Slight Limp",
+            "AC": true,
+            "IC": "hunter_pvp_snipershot"
+          },
+          "5": {
+            "TX": "Anara is a skilled entertainer and server. At home in Quel'thalas she was servant to a noble house.\n\nIn Stormwind she makes a living offering these skills she learned to wealthy patrons.\n\nThese skills include anything hospitality related.\n\nShe is a skilled singer, dancer, musician and conversationalist. She can play several instruments, serve drinks with the finest of manners and sing in three languages.\n\nIf you are interested in procuring her services, approach ICly or whisper me OOCly and we can work something out.",
+            "TI": "Services Offered",
+            "IC": "ability_priest_heavanlyvoice",
+            "AC": true
+          }
+        }
+      },
+      "character": {
+        "RP": 1,
+        "v": 57,
+        "CO": "Please read disclaimers in About!\nCharacter has very mature themes\n21+ RP\nDark/Fantasy/Long\nOpen to anything\n\nBeen awhile dudes",
+        "LC": "enUS",
+        "XP": 3,
+        "CU": ""
+      },
+      "characteristics": {
+        "RE": "Stormwind",
+        "v": 32,
+        "CH": "ff76b0",
+        "HE": "5'2\"",
+        "MI": [
+          {
+            "NA": "Nickname",
+            "VA": "'Nara",
+            "IC": "inv_alliancewareffort"
+          },
+          {
+            "NA": "Relationship",
+            "VA": "Engaged, Open!",
+            "IC": "ability_mage_iceform"
+          }
+        ],
+        "RA": "Ren'dorei",
+        "EC": "Violet",
+        "CL": "Socialite",
+        "BP": "Quel'thalas",
+        "FT": "Dancer || Entertainer || Hostess || Elivish Morena Baccarin",
+        "AG": "35",
+        "IC": "ability_priest_heavanlyvoice",
+        "FN": "Anara",
+        "PS": [
+          {
+            "ID": 1,
+            "VA": 4,
+            "V2": 14
+          },
+          {
+            "ID": 3,
+            "VA": 5,
+            "V2": 15
+          },
+          {
+            "ID": 4,
+            "VA": 2,
+            "V2": 7
+          },
+          {
+            "ID": 6,
+            "VA": 5,
+            "V2": 17
+          },
+          {
+            "ID": 10,
+            "VA": 1,
+            "V2": 2
+          },
+          {
+            "ID": 5,
+            "VA": 2,
+            "V2": 7
+          },
+          {
+            "VA": 6,
+            "RI": "spell_holy_powerwordshield",
+            "V2": 20,
+            "RT": "Chaste",
+            "LI": "spell_shadow_summonsuccubus",
+            "LT": "Lustful"
+          }
+        ],
+        "RS": 0,
+        "WE": "Lithe, supple"
+      }
+    }
+  }
+]
