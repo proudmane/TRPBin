@@ -2,3 +2,4 @@
 **/obj
 **/node_modules
 **/appsettings.*.json
+**/example@.json

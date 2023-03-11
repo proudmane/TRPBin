@@ -1,0 +1,170 @@
+[
+  113,
+  "0131041815sy0SQ",
+  {
+    "player": {
+      "about": {
+        "TE": 1,
+        "T1": [],
+        "T3": {
+          "PS": [],
+          "HI": [],
+          "PH": []
+        },
+        "v": 1,
+        "T2": []
+      },
+      "misc": {
+        "v": 26,
+        "ST": {
+          "1": 3,
+          "2": 1,
+          "3": 3,
+          "4": 2,
+          "5": 4,
+          "6": 1
+        },
+        "PE": {
+          "1": {
+            "IC": "INV_Relics_Hourglass",
+            "TX": "Kyen wears an ornate sand hourglass around her neck via a sinew string. It seems to still be one-hundred percent functional.",
+            "AC": true,
+            "TI": "An Odd Trinket"
+          },
+          "2": {
+            "IC": "Ability_Mage_ConjureWater11",
+            "TX": "Despite Kyen's claims of being older than she'd care to admit, she doesn't really appear to be much older than a young adult highborne.",
+            "AC": true,
+            "TI": "'Youth In My Blood'"
+          },
+          "3": {
+            "IC": "Spell_Arcane_StudentOfMagic",
+            "TX": "Kyenthis is definitely a gifted magic user, as those magically inclined will have no issues sensing a powerful arcane aura around her. \n\nThere appears to be another aura there, but its hidden.",
+            "AC": true,
+            "TI": "Gifted"
+          },
+          "4": {
+            "IC": "INV_Misc_Rope_01_BluePurple",
+            "TX": "Kyen's hair, which reaches to her knees, never seems to lose its length for more than a day even when cut. Whether or not this is related to her mastery of magic is uncertain, but it certainly is a bit odd..",
+            "AC": true,
+            "TI": "A Peculiar Observation"
+          },
+          "5": {
+            "IC": "INV_ValentinesCard01",
+            "TX": "If you have ever felt alone, suicidal, hopeless, lost, worthless, abandoned, scared, or ANYTHING of that nature! Any of it, even for a second! \n\nRead this. Out loud. Riiiiiight now.\n\nYou are beautiful.\nYou are wanted.\nYou are wonderful.\nYou are loved.\nYour life is worth living.\nYour life is valued.\nYour life is sacred.\nYour life is unique.\n\nDone? Do it again, at least another nine times. Trust me, it can help.\n\nDon't quit on yourself. Don't hurt yourself. You are worth the world and no one wants to actually see you suffering, no matter how much it may seem those odds are against you. This is not the end. The way you feel right now can and will pass, I assure you. \n\nPeople's minds can and will change. Things can and WILL get better.\n\nDO NOT DO SOMETHING PERMANENT OVER SOMETHING TEMPORARY, NO MATTER HOW BAD IT GETS.\n\nYou're better than that.\n\nIf nobody has told you today-- no, even if they have-- you're awesome and I love you.\n\nI am always here to lend an ear or a fluffy hug in the span of mere seconds, do not forget this. Even if I look busy, if you need somebody to talk with, hit me up with a whisper.\n\nI have been in your shoes one too many times before, and if there is one thing I have learned...you don't have to go through it alone.\n",
+            "AC": false,
+            "TI": "***Read Me***"
+          }
+        }
+      },
+      "characteristics": {
+        "PS": [
+          {
+            "V2": 5,
+            "VA": 2,
+            "ID": 8
+          },
+          {
+            "V2": 14,
+            "VA": 4,
+            "ID": 1
+          },
+          {
+            "V2": 19,
+            "VA": 6,
+            "ID": 2
+          },
+          {
+            "V2": 14,
+            "VA": 4,
+            "ID": 9
+          },
+          {
+            "V2": 11,
+            "VA": 3,
+            "ID": 3
+          },
+          {
+            "V2": 8,
+            "VA": 2,
+            "ID": 4
+          },
+          {
+            "V2": 2,
+            "VA": 1,
+            "ID": 5
+          },
+          {
+            "V2": 7,
+            "VA": 2,
+            "ID": 6
+          },
+          {
+            "V2": 1,
+            "VA": 0,
+            "ID": 7
+          },
+          {
+            "V2": 7,
+            "VA": 2,
+            "ID": 10
+          },
+          {
+            "V2": 20,
+            "VA": 6,
+            "ID": 11
+          }
+        ],
+        "CL": "Magus",
+        "v": 17,
+        "WE": "Muscular, bottom heavy",
+        "IC": "INV_Misc_Herb_TalandrasRose",
+        "MI": [
+          {
+            "VA": "\"You're never too old to learn something new.\"",
+            "IC": "INV_Inscription_ScrollOfWisdom_01",
+            "NA": "Motto"
+          },
+          {
+            "VA": "Kyen, Portal Failure",
+            "IC": "Ability_Hunter_BeastCall",
+            "NA": "Nicknames"
+          }
+        ],
+        "LN": "Lunarsong",
+        "HE": "7'6\"",
+        "RA": "Highborne",
+        "EC": "Amber",
+        "EH": "d67400",
+        "RE": "Wandering",
+        "FN": "Kyenthis",
+        "CH": "ffab61"
+      },
+      "character": {
+        "LC": "enUS",
+        "XP": 2,
+        "v": 92,
+        "CO": "I really need to namechange Kyen at somepoint.",
+        "CU": "Beyond confused.",
+        "RP": 1
+      }
+    },
+    "inventory": {
+      "totalWeight": 500,
+      "totalValue": 0,
+      "init": true,
+      "content": {
+        "17": {
+          "content": [],
+          "totalWeight": 500,
+          "totalValue": 0,
+          "id": "bag"
+        }
+      },
+      "id": "main"
+    },
+    "relation": [],
+    "questlog": [],
+    "profileName": "Alessandrya"
+  }
+]
