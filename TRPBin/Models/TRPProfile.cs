@@ -130,11 +130,11 @@ namespace TRPBin.Models
     public class TRPPlayerAboutTemplate3
     {
         [JsonPropertyName("PH")]
-        public TRPPlayerAboutTemplateSection? PhysicalDescription { get; set; }
+        public JsonElement? PhysicalDescription { get; set; }
         [JsonPropertyName("HI")]
-        public TRPPlayerAboutTemplateSection? History { get; set; }
+        public JsonElement? History { get; set; }
         [JsonPropertyName("PS")]
-        public TRPPlayerAboutTemplateSection? Personality { get; set; }
+        public JsonElement? Personality { get; set; }
     }
 
     public class TRPPlayerAboutTemplateSection
