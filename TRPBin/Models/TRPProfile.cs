@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
@@ -91,37 +92,54 @@ namespace TRPBin.Models
         [JsonPropertyName("v")]
         public int? Version { get; set; }
         [JsonPropertyName("TE")]
-        public int? TE { get; set; }
+        public int? ActiveTemplate { get; set; }
         [JsonPropertyName("T1")]
-        public TRPPlayerAboutT1? T1 { get; set; }
+        public JsonElement? Template1 { get; set; }
         [JsonPropertyName("T2")]
-        public IEnumerable<object>? T2 { get; set; }
+        public IEnumerable<TRPPlayerAboutTemplateSection>? Template2 { get; set; }
         [JsonPropertyName("T3")]
-        public TRPPlayerAboutT3? T3 { get; set; }
+        public TRPPlayerAboutTemplate3? Template3 { get; set; }
         [JsonPropertyName("BK")]
-        public int? BK { get; set; }
+        public int? Background { get; set; }
+
+        [JsonIgnore]
+        public string? Template1Text { 
+            get
+            {
+                if (Template1?.TryGetProperty("TX", out JsonElement value) ?? false)
+                {
+                    return value.ToString();
+                }
+
+                return null;
+            }
+        }
     }
 
-    public class TRPPlayerAboutT1
+    public class TRPPlayerAboutTemplate1
     {
         [JsonPropertyName("TX")]
-        public string? TX { get; set; }
+        public string? Text { get; set; }
     }
 
-    public class TRPPlayerAboutT3
+    public class TRPPlayerAboutTemplate3
     {
         [JsonPropertyName("PH")]
-        public TRPPlayerAboutT3BK? PH { get; set; }
+        public TRPPlayerAboutTemplateSection? PhysicalDescription { get; set; }
         [JsonPropertyName("HI")]
-        public TRPPlayerAboutT3BK? HI { get; set; }
+        public TRPPlayerAboutTemplateSection? History { get; set; }
         [JsonPropertyName("PS")]
-        public TRPPlayerAboutT3BK? PS { get; set; }
+        public TRPPlayerAboutTemplateSection? Personality { get; set; }
     }
 
-    public class TRPPlayerAboutT3BK
+    public class TRPPlayerAboutTemplateSection
     {
         [JsonPropertyName("BK")]
-        public int? BK { get; set; }
+        public int? Background { get; set; }
+        [JsonPropertyName("TX")]
+        public string? Text { get; set; }
+        [JsonPropertyName("IC")]
+        public string? Icon { get; set; }
     }
 
     public class TRPPlayerCharacter
