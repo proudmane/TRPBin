@@ -22,9 +22,17 @@ namespace TRPBin.Controllers
         }
 
         [HttpPost]
-        public ActionResult<TRPProfile> CreateProfile(CreateTRPProfilePayload payload)
+        public async Task<ActionResult<TRPProfile>> CreateProfile(CreateTRPProfilePayload payload)
         {
-            var result = _trpProfileService.CreateProfile(payload.ExportString);
+            var result = await _trpProfileService.CreateProfileAsync(payload.ExportString);
+
+            return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<TRPProfile>>> FetchProfiles()
+        {
+            var result = await _trpProfileService.FetchProfilesAsync();
 
             return Ok(result);
         }

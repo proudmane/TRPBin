@@ -1,3 +1,4 @@
+using TRPBin.db;
 using TRPBin.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ILuaFactory, LuaFactory>();
 builder.Services.AddScoped<ITRPSerializer, TRPSerializer>();
 builder.Services.AddScoped<ITRPProfileService, TRPProfileService>();
+builder.Services.AddScoped<ApplicationContext>();
 
 var app = builder.Build();
 

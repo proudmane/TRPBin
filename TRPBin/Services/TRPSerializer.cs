@@ -10,7 +10,7 @@ namespace TRPBin.Services
 {
     public interface ITRPSerializer
     {
-        TRPProfile Deserialize(string trpExport);
+        List<TRPProfile> Deserialize(params string[] parameters);
         string Serialize(TRPProfile profile);
     }
 
@@ -25,22 +25,29 @@ namespace TRPBin.Services
             _luaFactory = luaFactory;
         }
 
-        public TRPProfile Deserialize(string trpExport)
+        public List<TRPProfile> Deserialize(params string[] parameters)
         {
+            var profiles = new List<TRPProfile>();
             using (var lua = _luaFactory.BuildLua())
             {
-                lua["TRPExport"] = trpExport.Replace("\"", "\\\"");;
-                var result = lua.DoString(@"
-                    return TRPExportToJSON(TRPExport)
-                ");
+                foreach (var trpExport in parameters)
+                {
+                    lua["TRPExport"] = trpExport.Replace("\"", "\\\"");;
+                    var result = lua.DoString(@"
+                        return TRPExportToJSON(TRPExport)
+                    ");
 
-                var jobject = JsonObject.Parse((string)result[0]);
-                var trpProfile = JsonSerializer.Deserialize<TRPProfile>(jobject?[2]);
+                    var jobject = JsonObject.Parse((string)result[0]);
+                    var trpProfile = JsonSerializer.Deserialize<TRPProfile>(jobject?[2]);
 
-                return trpProfile ?? throw new Exception(
-                    "TRP Profile is null"
-                );
+                    if (trpProfile != null)
+                    {
+                        profiles.Add(trpProfile);
+                    }
+                }
             }
+
+            return profiles;
         }
 
         public string Serialize(TRPProfile profile)
