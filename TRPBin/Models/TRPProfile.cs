@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace TRPBin.Models
 {
+    public class CreateTRPProfilePayload
+    {
+        public string ExportString { get; set; } = "";
+    }
+
     public class TRPProfile
     {
         [JsonPropertyName("profileName")]

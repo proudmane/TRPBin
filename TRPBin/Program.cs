@@ -9,7 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<TestLuaService>();
+// builder.Services.AddScoped<TestLuaService>();
+
+builder.Services.AddScoped<ILuaFactory, LuaFactory>();
+builder.Services.AddScoped<ITRPSerializer, TRPSerializer>();
+builder.Services.AddScoped<ITRPProfileService, TRPProfileService>();
 
 var app = builder.Build();
 
@@ -26,9 +30,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// app.Run();
+app.Run();
 
-var scope = app.Services.CreateAsyncScope();
-var service = scope.ServiceProvider.GetRequiredService<TestLuaService>();
+// var scope = app.Services.CreateAsyncScope();
+// var service = scope.ServiceProvider.GetRequiredService<TestLuaService>();
 
-service.TestMoonSharp();
+// service.TestMoonSharp();

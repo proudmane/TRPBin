@@ -2,6 +2,16 @@
 AceSerializer = LibStub:GetLibrary("AceSerializer-3.0")
 LibJSON = LibStub:GetLibrary("LibJSON-1.0")
 
+function TRPExportToJSON(str)
+    local success, value = AceSerializer:Deserialize(str)
+
+    if success then
+        return LibJSON.Serialize(value)
+    end
+
+    return ''
+end
+
 function table.val_to_str ( v )
     if "string" == type( v ) then
         v = string.gsub( v, "\n", "\\n" )
